@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header id="header">
+        <h1>Simple Calculator</h1>
+    </header>
+    <div id="container">
+        <div id="display">
+            <div class="operators-display" data-previous-operand>0</div>
+            <div class="operand-display" data-current-operand>0</div>
+        </div>
+        <div id="choices">
+            <div class="clear" data-all-clear>Clear</div>
+            <div class="delete" data-delete-previous>Delete</div>
+        </div>
+        <div id="math-operation-container">
+            <div id="row-one">
+                <div class="btn" data-number>7</div>
+                <div class="btn" data-number>8</div>
+                <div class="btm" data-number>9</div>
+                <div class="btn" data-operation>+</div>
+            </div>
+            <div id="row-two">
+                <div class="btn" data-number>4</div>
+                <div class="btn" data-number>5</div>
+                <div class="btn" data-number>6</div>
+                <div class="btn" data-operation>-</div>
+            </div>
+            <div id="row-three">
+                <div class="btn" data-number>1</div>
+                <div class="btn" data-number>2</div>
+                <div class="btn" data-number>3</div>
+                <div class="btn" data-operation>/</div>
+            </div>
+            <div id="row-four">
+                <div class="btn" data-number>.</div>
+                <div class="btn" data-number>0</div>
+                <div class="btn" data-equals>=</div>
+                <div class="btn" data-operation>*</div>
+            </div>
+        </div>
+    </div>
+    <div id="footer-container">
+        <footer id="footer">
+            <div>Copyright © Tim Mukhamedov 2022</div>
+        </footer>
+    </div>
+</body>
+
+</html>
